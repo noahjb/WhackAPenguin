@@ -9,25 +9,55 @@
 /* Begin PBXBuildFile section */
 		768F074F1ED7E85000F13C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F074E1ED7E85000F13C74 /* AppDelegate.swift */; };
 		768F07511ED7E85000F13C74 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 768F07501ED7E85000F13C74 /* GameScene.sks */; };
-		768F07531ED7E85000F13C74 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 768F07521ED7E85000F13C74 /* Actions.sks */; };
 		768F07551ED7E85000F13C74 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F07541ED7E85000F13C74 /* GameScene.swift */; };
 		768F07571ED7E85000F13C74 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F07561ED7E85000F13C74 /* GameViewController.swift */; };
 		768F075A1ED7E85000F13C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768F07581ED7E85000F13C74 /* Main.storyboard */; };
 		768F075C1ED7E85000F13C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768F075B1ED7E85000F13C74 /* Assets.xcassets */; };
 		768F075F1ED7E85000F13C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768F075D1ED7E85000F13C74 /* LaunchScreen.storyboard */; };
+		768F07761ED7EA0200F13C74 /* gameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07671ED7EA0200F13C74 /* gameOver.png */; };
+		768F07771ED7EA0200F13C74 /* gameOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07681ED7EA0200F13C74 /* gameOver@2x.png */; };
+		768F07781ED7EA0200F13C74 /* penguinEvil.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07691ED7EA0200F13C74 /* penguinEvil.png */; };
+		768F07791ED7EA0200F13C74 /* penguinEvil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F076A1ED7EA0200F13C74 /* penguinEvil@2x.png */; };
+		768F077A1ED7EA0200F13C74 /* penguinGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F076B1ED7EA0200F13C74 /* penguinGood.png */; };
+		768F077B1ED7EA0200F13C74 /* penguinGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F076C1ED7EA0200F13C74 /* penguinGood@2x.png */; };
+		768F077C1ED7EA0200F13C74 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 768F076D1ED7EA0200F13C74 /* whack.caf */; };
+		768F077D1ED7EA0200F13C74 /* whackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F076E1ED7EA0200F13C74 /* whackBackground.png */; };
+		768F077E1ED7EA0200F13C74 /* whackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F076F1ED7EA0200F13C74 /* whackBackground@2x.png */; };
+		768F077F1ED7EA0200F13C74 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 768F07701ED7EA0200F13C74 /* whackBad.caf */; };
+		768F07801ED7EA0200F13C74 /* whackHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07711ED7EA0200F13C74 /* whackHole.png */; };
+		768F07811ED7EA0200F13C74 /* whackHole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07721ED7EA0200F13C74 /* whackHole@2x.png */; };
+		768F07821ED7EA0200F13C74 /* whackMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07731ED7EA0200F13C74 /* whackMask.png */; };
+		768F07831ED7EA0200F13C74 /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F07741ED7EA0200F13C74 /* whackMask@2x.png */; };
+		768F07841ED7EA0200F13C74 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F07751ED7EA0200F13C74 /* Helper.swift */; };
+		768F07861ED7EBB300F13C74 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F07851ED7EBB300F13C74 /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		768F074B1ED7E85000F13C74 /* WhackAPenguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhackAPenguin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768F074E1ED7E85000F13C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		768F07501ED7E85000F13C74 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		768F07521ED7E85000F13C74 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		768F07541ED7E85000F13C74 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		768F07561ED7E85000F13C74 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		768F07591ED7E85000F13C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		768F075B1ED7E85000F13C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768F075E1ED7E85000F13C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768F07601ED7E85000F13C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768F07671ED7EA0200F13C74 /* gameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOver.png; sourceTree = "<group>"; };
+		768F07681ED7EA0200F13C74 /* gameOver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameOver@2x.png"; sourceTree = "<group>"; };
+		768F07691ED7EA0200F13C74 /* penguinEvil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguinEvil.png; sourceTree = "<group>"; };
+		768F076A1ED7EA0200F13C74 /* penguinEvil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguinEvil@2x.png"; sourceTree = "<group>"; };
+		768F076B1ED7EA0200F13C74 /* penguinGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguinGood.png; sourceTree = "<group>"; };
+		768F076C1ED7EA0200F13C74 /* penguinGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguinGood@2x.png"; sourceTree = "<group>"; };
+		768F076D1ED7EA0200F13C74 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		768F076E1ED7EA0200F13C74 /* whackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackBackground.png; sourceTree = "<group>"; };
+		768F076F1ED7EA0200F13C74 /* whackBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackBackground@2x.png"; sourceTree = "<group>"; };
+		768F07701ED7EA0200F13C74 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		768F07711ED7EA0200F13C74 /* whackHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackHole.png; sourceTree = "<group>"; };
+		768F07721ED7EA0200F13C74 /* whackHole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackHole@2x.png"; sourceTree = "<group>"; };
+		768F07731ED7EA0200F13C74 /* whackMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackMask.png; sourceTree = "<group>"; };
+		768F07741ED7EA0200F13C74 /* whackMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whackMask@2x.png"; sourceTree = "<group>"; };
+		768F07751ED7EA0200F13C74 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		768F07851ED7EBB300F13C74 /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +90,12 @@
 		768F074D1ED7E85000F13C74 /* WhackAPenguin */ = {
 			isa = PBXGroup;
 			children = (
+				768F07661ED7EA0200F13C74 /* Content */,
+				768F07751ED7EA0200F13C74 /* Helper.swift */,
 				768F074E1ED7E85000F13C74 /* AppDelegate.swift */,
 				768F07501ED7E85000F13C74 /* GameScene.sks */,
-				768F07521ED7E85000F13C74 /* Actions.sks */,
 				768F07541ED7E85000F13C74 /* GameScene.swift */,
+				768F07851ED7EBB300F13C74 /* WhackSlot.swift */,
 				768F07561ED7E85000F13C74 /* GameViewController.swift */,
 				768F07581ED7E85000F13C74 /* Main.storyboard */,
 				768F075B1ED7E85000F13C74 /* Assets.xcassets */,
@@ -71,6 +103,27 @@
 				768F07601ED7E85000F13C74 /* Info.plist */,
 			);
 			path = WhackAPenguin;
+			sourceTree = "<group>";
+		};
+		768F07661ED7EA0200F13C74 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				768F07671ED7EA0200F13C74 /* gameOver.png */,
+				768F07681ED7EA0200F13C74 /* gameOver@2x.png */,
+				768F07691ED7EA0200F13C74 /* penguinEvil.png */,
+				768F076A1ED7EA0200F13C74 /* penguinEvil@2x.png */,
+				768F076B1ED7EA0200F13C74 /* penguinGood.png */,
+				768F076C1ED7EA0200F13C74 /* penguinGood@2x.png */,
+				768F076D1ED7EA0200F13C74 /* whack.caf */,
+				768F076E1ED7EA0200F13C74 /* whackBackground.png */,
+				768F076F1ED7EA0200F13C74 /* whackBackground@2x.png */,
+				768F07701ED7EA0200F13C74 /* whackBad.caf */,
+				768F07711ED7EA0200F13C74 /* whackHole.png */,
+				768F07721ED7EA0200F13C74 /* whackHole@2x.png */,
+				768F07731ED7EA0200F13C74 /* whackMask.png */,
+				768F07741ED7EA0200F13C74 /* whackMask@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +185,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768F07761ED7EA0200F13C74 /* gameOver.png in Resources */,
 				768F075A1ED7E85000F13C74 /* Main.storyboard in Resources */,
+				768F07771ED7EA0200F13C74 /* gameOver@2x.png in Resources */,
+				768F07821ED7EA0200F13C74 /* whackMask.png in Resources */,
+				768F07811ED7EA0200F13C74 /* whackHole@2x.png in Resources */,
 				768F07511ED7E85000F13C74 /* GameScene.sks in Resources */,
+				768F07801ED7EA0200F13C74 /* whackHole.png in Resources */,
+				768F077E1ED7EA0200F13C74 /* whackBackground@2x.png in Resources */,
+				768F077D1ED7EA0200F13C74 /* whackBackground.png in Resources */,
 				768F075C1ED7E85000F13C74 /* Assets.xcassets in Resources */,
+				768F07791ED7EA0200F13C74 /* penguinEvil@2x.png in Resources */,
+				768F07781ED7EA0200F13C74 /* penguinEvil.png in Resources */,
 				768F075F1ED7E85000F13C74 /* LaunchScreen.storyboard in Resources */,
-				768F07531ED7E85000F13C74 /* Actions.sks in Resources */,
+				768F07831ED7EA0200F13C74 /* whackMask@2x.png in Resources */,
+				768F077C1ED7EA0200F13C74 /* whack.caf in Resources */,
+				768F077B1ED7EA0200F13C74 /* penguinGood@2x.png in Resources */,
+				768F077A1ED7EA0200F13C74 /* penguinGood.png in Resources */,
+				768F077F1ED7EA0200F13C74 /* whackBad.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				768F07551ED7E85000F13C74 /* GameScene.swift in Sources */,
+				768F07861ED7EBB300F13C74 /* WhackSlot.swift in Sources */,
 				768F07571ED7E85000F13C74 /* GameViewController.swift in Sources */,
 				768F074F1ED7E85000F13C74 /* AppDelegate.swift in Sources */,
+				768F07841ED7EA0200F13C74 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
